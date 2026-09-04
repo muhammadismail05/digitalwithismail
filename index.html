@@ -795,7 +795,11 @@
       section { padding: 56px 0; }
       .container { padding: 0 18px; }
       .logo-img { height: 46px; }
-      .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+      footer { padding-top: 50px; }
+      /* Mobile: brand & Contact full-width, link columns side-by-side */
+      .footer-grid { grid-template-columns: repeat(2, 1fr); gap: 32px 20px; }
+      .footer-brand, .footer-col:last-child { grid-column: 1 / -1; }
+      .footer-col h4 { margin-bottom: 16px; }
       .hero { padding: 104px 0 56px; min-height: auto; }
       .hero h1 { font-size: clamp(1.55rem, 6vw, 2rem); }
       .services-grid, .projects-grid, .process-grid, .about-points { grid-template-columns: 1fr; }
@@ -814,7 +818,7 @@
       .footer-col ul li { margin-bottom: 14px; }
       .footer-col a, .footer-col p { font-size: 0.94rem; }
       .socials a { width: 46px; height: 46px; }
-      .copyright { justify-content: center; text-align: center; padding: 20px 0 90px; }
+      .copyright { justify-content: center; text-align: center; padding: 18px 0 88px; }
       /* WhatsApp float — thora upar, content se door */
       .wa-float { bottom: 20px; right: 16px; width: 54px; height: 54px; }
       /* CTA box compact */
@@ -1252,6 +1256,12 @@
         const el = document.getElementById(id);
         if (el) el.href = CONFIG.socials[key] || "#";
       });
+      // Agar koi social link set nahi ("#") to icons chhupa dein
+      const hasSocial = Object.values(socialMap).some(k => CONFIG.socials[k] && CONFIG.socials[k] !== "#");
+      if (!hasSocial) {
+        const s = document.querySelector(".socials");
+        if (s) s.style.display = "none";
+      }
     }
 
     /* ==================== PROJECTS GRID ==================== */
