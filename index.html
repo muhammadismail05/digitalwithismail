@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ==================== SEO META TAGS ==================== -->
+  <title>M Ismail Ibrahim — SEO Expert & Web Designer | Off-Page, On-Page & Local SEO</title>
+  <meta name="description" content="M Ismail Ibrahim is an SEO Expert offering Off-Page SEO, On-Page SEO, Local SEO, Website Designing & Vibe Coding services. 100+ live projects including tools sites, APKs & info sites." />
+  <meta name="keywords" content="M Ismail Ibrahim, SEO Expert, Off-Page SEO, On-Page SEO, Local SEO, Website Designer, Vibe Coding, Link Building, Google Business Profile" />
+  <meta name="author" content="M Ismail Ibrahim" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph (Facebook / WhatsApp share preview) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="M Ismail Ibrahim — SEO Expert & Web Designer" />
+  <meta property="og:description" content="Off-Page SEO, On-Page SEO, Local SEO, Website Designing & Vibe Coding. 100+ live projects." />
+  <meta property="og:url" content="https://muhammadismail05.github.io/digitalwithismail/" />
+  <meta property="og:image" content="https://muhammadismail05.github.io/digitalwithismail/profile.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="M Ismail Ibrahim — SEO Expert & Web Designer" />
+  <meta name="twitter:description" content="Off-Page SEO, On-Page SEO, Local SEO, Website Designing & Vibe Coding. 100+ live projects." />
+  <meta name="twitter:image" content="https://muhammadismail05.github.io/digitalwithismail/profile.jpg" />
+
+  <!-- Favicon & App Icons (Digital with Ismail) -->
+  <link rel="icon" type="image/png" href="ismail%20favicon.png" />
+  <link rel="apple-touch-icon" href="ismail%20favicon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- ==================== JSON-LD SCHEMA (SEO) ==================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "M Ismail Ibrahim",
+    "alternateName": "Muhammad Ismail Ibrahim",
+    "jobTitle": "SEO Expert & Web Designer",
+    "description": "SEO Expert offering Off-Page SEO, On-Page SEO, Local SEO, Website Designing and Vibe Coding services with 100+ live projects.",
+    "knowsAbout": ["Off-Page SEO", "On-Page SEO", "Local SEO", "Website Designing", "Vibe Coding", "Link Building", "Google Business Profile"]
+  }
+  </script>
+
+  <style>
+    /* ==================== CSS VARIABLES ==================== */
+    :root {
+      --bg: #070b14;
+      --bg-2: #0c1322;
+      --bg-3: #111b30;
+      --card: #0d1626;
+      --border: rgba(148, 163, 184, 0.12);
+      --border-hover: rgba(34, 211, 165, 0.45);
+      --text: #e8edf5;
+      --muted: #94a3b8;
+      --accent: #22d3a5;
+      --accent-2: #38bdf8;
+      --gradient: linear-gradient(135deg, #22d3a5 0%, #38bdf8 100%);
+      --whatsapp: #25d366;
+      --radius: 16px;
+      --font-head: 'Poppins', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    ::selection { background: rgba(34, 211, 165, 0.3); color: #fff; }
+
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 5px; }
+    ::-webkit-scrollbar-thumb:hover { background: #2c3e57; }
+
+    h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 700; line-height: 1.25; }
+
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+    section { padding: 90px 0; position: relative; }
+
+    /* ==================== REUSABLE ==================== */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 28px; height: 2px;
+      background: var(--gradient);
+      border-radius: 2px;
+    }
+
+    .section-title { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 14px; }
+    .section-title .grad { background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .section-sub { color: var(--muted); max-width: 640px; margin-bottom: 54px; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 30px;
+      border-radius: 50px;
+      font-family: var(--font-head);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary { background: var(--gradient); color: #04121f; box-shadow: 0 8px 28px rgba(34, 211, 165, 0.28); }
+    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 14px 36px rgba(34, 211, 165, 0.42); }
+    .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-ghost:hover { border-color: var(--border-hover); background: rgba(34, 211, 165, 0.06); transform: translateY(-3px); }
+    .btn-whatsapp { background: var(--whatsapp); color: #052e16; box-shadow: 0 8px 28px rgba(37, 211, 102, 0.3); }
+    .btn-whatsapp:hover { transform: translateY(-3px); box-shadow: 0 14px 36px rgba(37, 211, 102, 0.45); }
+
+    /* ==================== NAVBAR ==================== */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      transition: all 0.35s ease;
+      padding: 18px 0;
+    }
+    header.scrolled {
+      background: rgba(7, 11, 20, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 0;
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; gap: 12px; font-family: var(--font-head); font-weight: 700; font-size: 1.05rem; }
+    .logo-mark {
+      width: 42px; height: 42px;
+      display: grid; place-items: center;
+      background: var(--gradient);
+      color: #04121f;
+      border-radius: 12px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 16px rgba(34, 211, 165, 0.35);
+    }
+    .logo-img {
+      height: 58px;
+      width: auto;
+      display: block;
+      flex-shrink: 0;
+    }
+    .logo span small { display: block; font-size: 0.62rem; font-weight: 500; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; }
+
+    .nav-links { display: flex; align-items: center; gap: 34px; }
+    .nav-links a {
+      font-size: 0.92rem;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color 0.25s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 0; bottom: -6px;
+      width: 0; height: 2px;
+      background: var(--gradient);
+      transition: width 0.3s;
+      border-radius: 2px;
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-cta { padding: 10px 22px; font-size: 0.85rem; }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      z-index: 1001;
+    }
+    .hamburger span { width: 26px; height: 2.5px; background: var(--text); border-radius: 3px; transition: all 0.3s; }
+    .hamburger.open span:nth-child(1) { transform: translateY(11.25px) rotate(45deg); }
+    .hamburger.open span:nth-child(2),
+    .hamburger.open span:nth-child(3) { opacity: 0; }
+    .hamburger.open span:nth-child(4) { transform: translateY(-11.25px) rotate(-45deg); }
+
+    /* ==================== HERO ==================== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 140px 0 80px;
+      background:
+        radial-gradient(ellipse 60% 50% at 75% 20%, rgba(56, 189, 248, 0.09), transparent 70%),
+        radial-gradient(ellipse 55% 55% at 20% 65%, rgba(34, 211, 165, 0.1), transparent 70%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(148,163,184,0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148,163,184,0.045) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(ellipse 75% 65% at 50% 40%, black 30%, transparent 75%);
+      -webkit-mask-image: radial-gradient(ellipse 75% 65% at 50% 40%, black 30%, transparent 75%);
+    }
+
+    .hero-inner { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: rgba(34, 211, 165, 0.08);
+      border: 1px solid rgba(34, 211, 165, 0.3);
+      color: var(--accent);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    .badge .dot {
+      width: 8px; height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(34, 211, 165, 0.6); }
+      50% { box-shadow: 0 0 0 7px rgba(34, 211, 165, 0); }
+    }
+
+    .hero h1 { font-size: clamp(2.2rem, 5.2vw, 3.7rem); font-weight: 800; line-height: 1.2; margin-bottom: 20px; }
+    .hero h1 .grad { background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .hero p.lead { color: var(--muted); font-size: clamp(1.1rem, 1.3vw, 1.28rem); line-height: 1.8; max-width: 640px; margin-bottom: 38px; }
+
+    .hero-cta { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 56px; }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      padding-top: 34px;
+      border-top: 1px solid var(--border);
+    }
+    .stat h3 { font-size: 2rem; font-weight: 800; background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .stat p { font-size: 0.8rem; color: var(--muted); letter-spacing: 0.5px; }
+
+    /* Hero visual card */
+    .hero-visual { position: relative; display: flex; justify-content: center; }
+    .avatar-ring {
+      width: min(420px, 38vw);
+      height: min(420px, 38vw);
+      border-radius: 50%;
+      padding: 7px;
+      background: conic-gradient(from 180deg, #22d3a5, #38bdf8, #22d3a5);
+      animation: spin 9s linear infinite;
+      position: relative;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .avatar-inner {
+      width: 100%; height: 100%;
+      border-radius: 50%;
+      background: var(--bg-2);
+      display: grid;
+      place-items: center;
+      animation: spin 9s linear infinite reverse;
+      overflow: hidden;
+      border: 6px solid var(--bg);
+    }
+    .avatar-inner img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+    .avatar-initials { font-family: var(--font-head); font-size: 5.5rem; font-weight: 800; background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+    /* ==================== TOOLS MARQUEE ==================== */
+    .tools { padding: 42px 0; border-block: 1px solid var(--border); background: var(--bg-2); }
+    .marquee { overflow: hidden; position: relative; }
+    .marquee::before, .marquee::after {
+      content: "";
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 110px;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .marquee::before { left: 0; background: linear-gradient(90deg, var(--bg-2), transparent); }
+    .marquee::after { right: 0; background: linear-gradient(-90deg, var(--bg-2), transparent); }
+    .marquee-track {
+      display: flex;
+      gap: 18px;
+      width: max-content;
+      animation: marquee 32s linear infinite;
+    }
+    .marquee:hover .marquee-track { animation-play-state: paused; }
+    @keyframes marquee { to { transform: translateX(-50%); } }
+    .tool-pill {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 11px 24px;
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      background: var(--card);
+      font-family: var(--font-head);
+      font-size: 0.86rem;
+      font-weight: 500;
+      color: var(--muted);
+      white-space: nowrap;
+      transition: all 0.3s;
+    }
+    .tool-pill:hover { color: var(--accent); border-color: var(--border-hover); }
+    .tool-pill svg { width: 16px; height: 16px; fill: var(--accent); flex-shrink: 0; }
+
+    /* ==================== SERVICES ==================== */
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .service-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 34px 28px;
+      transition: all 0.35s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--gradient);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+    .service-card:hover { transform: translateY(-8px); border-color: var(--border-hover); box-shadow: 0 20px 44px rgba(0,0,0,0.45); }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-ico {
+      width: 58px; height: 58px;
+      border-radius: 15px;
+      background: rgba(34, 211, 165, 0.1);
+      border: 1px solid rgba(34, 211, 165, 0.25);
+      display: grid;
+      place-items: center;
+      margin-bottom: 22px;
+    }
+    .service-ico svg { width: 27px; height: 27px; stroke: var(--accent); }
+    .service-card h3 { font-size: 1.18rem; margin-bottom: 10px; }
+    .service-card p { color: var(--muted); font-size: 0.92rem; margin-bottom: 18px; }
+    .service-card .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .service-card .tags span {
+      font-size: 0.72rem;
+      font-weight: 500;
+      padding: 5px 12px;
+      border-radius: 50px;
+      background: var(--bg-3);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .service-card.featured { grid-column: span 1; }
+
+    /* ==================== PROJECTS ==================== */
+    .filter-bar { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
+    .filter-btn {
+      padding: 10px 24px;
+      border-radius: 50px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--muted);
+      font-family: var(--font-head);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .filter-btn:hover { border-color: var(--border-hover); color: var(--text); }
+    .filter-btn.active { background: var(--gradient); color: #04121f; border-color: transparent; }
+
+    .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .project-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      transition: all 0.35s ease;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+    .project-card::after {
+      content: "";
+      position: absolute;
+      bottom: -60px; right: -60px;
+      width: 150px; height: 150px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(34,211,165,0.12), transparent 70%);
+      opacity: 0;
+      transition: opacity 0.4s;
+    }
+    .project-card:hover { transform: translateY(-8px); border-color: var(--border-hover); box-shadow: 0 20px 44px rgba(0,0,0,0.45); }
+    .project-card:hover::after { opacity: 1; }
+    .project-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+    .project-type {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 50px;
+    }
+    .type-tool { background: rgba(56, 189, 248, 0.12); color: var(--accent-2); border: 1px solid rgba(56, 189, 248, 0.3); }
+    .type-apk { background: rgba(167, 139, 250, 0.12); color: #a78bfa; border: 1px solid rgba(167, 139, 250, 0.3); }
+    .type-info { background: rgba(251, 191, 36, 0.12); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.3); }
+    .type-service { background: rgba(251, 113, 133, 0.12); color: #fb7185; border: 1px solid rgba(251, 113, 133, 0.3); }
+    .live-dot { display: inline-flex; align-items: center; gap: 7px; font-size: 0.74rem; font-weight: 600; color: var(--accent); }
+    .live-dot i { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); animation: pulse 1.8s infinite; }
+    .project-card h3 { font-size: 1.08rem; margin-bottom: 8px; }
+    .project-card p { color: var(--muted); font-size: 0.88rem; flex-grow: 1; margin-bottom: 20px; }
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-head);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent);
+      transition: gap 0.3s;
+    }
+    .project-link:hover { gap: 13px; }
+    .projects-note {
+      text-align: center;
+      margin-top: 44px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .projects-note strong { color: var(--accent); }
+
+    /* ==================== ABOUT ==================== */
+    .about { background: var(--bg-2); border-block: 1px solid var(--border); }
+    .about-inner { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 70px; align-items: center; }
+    .about-visual { position: relative; }
+    .about-photo {
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      overflow: hidden;
+      aspect-ratio: 4/4.6;
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+    .about-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .about-photo .ph { text-align: center; padding: 30px; }
+    .about-photo .ph .big { font-family: var(--font-head); font-size: 5rem; font-weight: 800; background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1.1; }
+    .about-photo .ph p { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+    .exp-badge {
+      position: absolute;
+      bottom: -22px; left: -22px;
+      background: var(--gradient);
+      color: #04121f;
+      border-radius: 18px;
+      padding: 18px 24px;
+      font-family: var(--font-head);
+      box-shadow: 0 16px 40px rgba(34,211,165,0.35);
+    }
+    .exp-badge b { font-size: 1.6rem; display: block; line-height: 1.15; }
+    .exp-badge span { font-size: 0.78rem; font-weight: 600; }
+    .about-points { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 28px 0 34px; }
+    .about-points li { display: flex; gap: 11px; align-items: flex-start; font-size: 0.92rem; color: var(--text); }
+    .check {
+      flex-shrink: 0;
+      width: 21px; height: 21px;
+      border-radius: 50%;
+      background: rgba(34, 211, 165, 0.14);
+      border: 1px solid rgba(34, 211, 165, 0.35);
+      display: grid;
+      place-items: center;
+      margin-top: 3px;
+    }
+    .check svg { width: 11px; height: 11px; stroke: var(--accent); }
+
+    /* ==================== RESULTS / GSC PROOF ==================== */
+    .results { background: var(--bg-2); border-block: 1px solid var(--border); }
+    .results-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 46px; }
+    .result-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 26px 20px;
+      text-align: center;
+      transition: all 0.35s;
+    }
+    .result-card:hover { transform: translateY(-6px); border-color: var(--border-hover); }
+    .result-card .num { font-family: var(--font-head); font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 800; background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1.2; }
+    .result-card p { font-size: 0.82rem; color: var(--muted); margin-top: 4px; letter-spacing: 0.4px; }
+    .gsc-frame {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      max-width: 900px;
+      margin: 0 auto;
+      transition: all 0.35s;
+      cursor: zoom-in;
+      display: block;
+    }
+    .gsc-frame:hover { border-color: var(--border-hover); box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
+    .gsc-topbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 13px 18px;
+      background: var(--bg-3);
+      border-bottom: 1px solid var(--border);
+    }
+    .gsc-topbar i { width: 11px; height: 11px; border-radius: 50%; }
+    .gsc-topbar i:nth-child(1) { background: #ff5f57; }
+    .gsc-topbar i:nth-child(2) { background: #febc2e; }
+    .gsc-topbar i:nth-child(3) { background: #28c840; }
+    .gsc-topbar span { margin-left: 10px; font-size: 0.78rem; color: var(--muted); font-family: var(--font-head); }
+    .gsc-frame img { display: block; width: 100%; height: auto; }
+    .gsc-caption {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-top: 18px;
+    }
+    .gsc-caption strong { color: var(--text); }
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(3, 6, 12, 0.92);
+      backdrop-filter: blur(8px);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      cursor: zoom-out;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img { max-width: 95vw; max-height: 90vh; border-radius: 12px; box-shadow: 0 30px 80px rgba(0,0,0,0.7); }
+
+    /* ==================== PROCESS ==================== */
+    .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+    .process-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 30px 24px;
+      position: relative;
+      transition: all 0.35s;
+    }
+    .process-card:hover { transform: translateY(-6px); border-color: var(--border-hover); }
+    .step-num {
+      font-family: var(--font-head);
+      font-size: 2.6rem;
+      font-weight: 800;
+      background: var(--gradient);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      opacity: 0.85;
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+    .process-card h3 { font-size: 1.02rem; margin-bottom: 8px; }
+    .process-card p { font-size: 0.86rem; color: var(--muted); }
+
+    /* ==================== FAQ ==================== */
+    .faq-wrap { max-width: 780px; margin: 0 auto; }
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      margin-bottom: 14px;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+    .faq-item.open { border-color: var(--border-hover); }
+    .faq-q {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      padding: 20px 24px;
+      background: none;
+      border: none;
+      color: var(--text);
+      font-family: var(--font-head);
+      font-size: 0.98rem;
+      font-weight: 600;
+      text-align: left;
+      cursor: pointer;
+    }
+    .faq-icon {
+      flex-shrink: 0;
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: rgba(34, 211, 165, 0.1);
+      display: grid;
+      place-items: center;
+      transition: transform 0.35s;
+    }
+    .faq-icon svg { width: 13px; height: 13px; stroke: var(--accent); }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+    .faq-a p { padding: 0 24px 22px; color: var(--muted); font-size: 0.92rem; }
+
+    /* ==================== CTA ==================== */
+    .cta-box {
+      background:
+        radial-gradient(ellipse 70% 90% at 50% 0%, rgba(34, 211, 165, 0.14), transparent 65%),
+        var(--bg-2);
+      border: 1px solid rgba(34, 211, 165, 0.25);
+      border-radius: 26px;
+      padding: 70px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-box h2 { font-size: clamp(1.7rem, 3.6vw, 2.5rem); margin-bottom: 14px; }
+    .cta-box p { color: var(--muted); max-width: 520px; margin: 0 auto 34px; }
+    .cta-trust { margin-top: 22px; font-size: 0.84rem; color: var(--muted); display: flex; justify-content: center; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+    /* ==================== FOOTER ==================== */
+    footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 70px 0 0; }
+    .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 44px; padding-bottom: 50px; }
+    .footer-col h4 { font-size: 0.95rem; margin-bottom: 20px; }
+    .footer-col p, .footer-col a { color: var(--muted); font-size: 0.9rem; }
+    .footer-col a, .footer-col p, .contact-line a, .contact-line span { overflow-wrap: break-word; word-break: break-word; min-width: 0; }
+    .footer-col ul li { margin-bottom: 11px; }
+    .footer-col ul a { transition: color 0.25s; }
+    .footer-col ul a:hover { color: var(--accent); }
+    .footer-brand .logo { margin-bottom: 16px; }
+    .socials { display: flex; gap: 12px; margin-top: 20px; }
+    .socials a {
+      width: 40px; height: 40px;
+      border-radius: 11px;
+      border: 1px solid var(--border);
+      display: grid;
+      place-items: center;
+      transition: all 0.3s;
+    }
+    .socials a:hover { border-color: var(--border-hover); background: rgba(34,211,165,0.07); transform: translateY(-3px); }
+    .socials svg { width: 17px; height: 17px; fill: var(--muted); transition: fill 0.3s; }
+    .socials a:hover svg { fill: var(--accent); }
+    .contact-line { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 15px; }
+    .contact-line svg { width: 17px; height: 17px; stroke: var(--accent); flex-shrink: 0; margin-top: 4px; }
+    .copyright {
+      border-top: 1px solid var(--border);
+      padding: 22px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      font-size: 0.83rem;
+      color: var(--muted);
+    }
+
+    /* ==================== FLOATING WHATSAPP ==================== */
+    .wa-float {
+      position: fixed;
+      bottom: 26px; right: 26px;
+      width: 58px; height: 58px;
+      background: var(--whatsapp);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 10px 30px rgba(37, 211, 102, 0.45);
+      z-index: 999;
+      transition: transform 0.3s;
+      animation: waPulse 2.6s infinite;
+    }
+    @keyframes waPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.45), 0 10px 30px rgba(37,211,102,0.4); }
+      50% { box-shadow: 0 0 0 14px rgba(37, 211, 102, 0), 0 10px 30px rgba(37,211,102,0.4); }
+    }
+    .wa-float:hover { transform: scale(1.1); }
+    .wa-float svg { width: 29px; height: 29px; fill: #fff; }
+
+    /* ==================== SCROLL REVEAL ==================== */
+    .reveal { opacity: 0; transform: translateY(34px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal[data-delay="1"] { transition-delay: 0.1s; }
+    .reveal[data-delay="2"] { transition-delay: 0.2s; }
+    .reveal[data-delay="3"] { transition-delay: 0.3s; }
+
+    /* ==================== RESPONSIVE ==================== */
+    @media (max-width: 1024px) {
+      .hero-inner { grid-template-columns: 1fr; text-align: center; }
+      .hero p.lead { margin-inline: auto; }
+      .hero-cta { order: 2; justify-content: center; margin-bottom: 44px; }
+      .hero-stats { order: 3; grid-template-columns: repeat(2, 1fr); text-align: center; }
+      /* Mobile: text pehle, photo paragraph ke foran baad, phir buttons & stats */
+      .hero-inner > div:first-child { display: contents; }
+      .hero-inner { display: flex; flex-direction: column; gap: 0; text-align: center; }
+      .hero-visual { order: 1; margin: 0 0 34px; }
+      .hero-visual::before {
+        content: "";
+        position: absolute;
+        left: 50%; top: 50%;
+        width: 135%; height: 135%;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(circle, rgba(56, 189, 248, 0.22) 0%, rgba(56, 189, 248, 0.08) 45%, transparent 70%);
+        z-index: -1;
+        pointer-events: none;
+      }
+      .avatar-ring {
+        width: min(82vw, 440px);
+        height: min(82vw, 440px);
+        padding: 0;
+        background: none;
+        animation: none;
+      }
+      .avatar-inner {
+        border: none;
+        animation: none;
+        box-shadow: 0 0 80px rgba(56, 189, 248, 0.30), 0 0 160px rgba(56, 189, 248, 0.14);
+      }
+      .services-grid, .projects-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-grid { grid-template-columns: repeat(2, 1fr); }
+      .about-inner { grid-template-columns: 1fr; gap: 50px; }
+      .about-visual { max-width: 360px; margin: 0 auto; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      section { padding: 66px 0; }
+      .logo-img { height: 46px; }
+      /* Mobile: hamburger (4 lines) — click par header ke neeche menu list khulti hai */
+      header { padding: 12px 0; }
+      .nav { flex-wrap: nowrap; }
+      .nav-links {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: rgba(9, 14, 26, 0.98);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        max-height: 0;
+        padding: 0 24px;
+        overflow: hidden;
+        border-bottom: none;
+        transition: max-height 0.45s ease, padding 0.45s ease;
+      }
+      .nav-links.open {
+        max-height: 480px;
+        padding: 6px 24px 14px;
+        border-bottom: 1px solid var(--border);
+      }
+      .nav-links a {
+        font-size: 0.98rem;
+        padding: 14px 2px;
+        border-bottom: 1px solid var(--border);
+      }
+      .nav-links a:last-child { border-bottom: none; }
+      .nav-links a::after { display: none; }
+      .hamburger { display: flex; }
+      .nav .btn { display: none; }
+      .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+      .hero { padding: 118px 0 64px; min-height: auto; }
+      .services-grid, .projects-grid, .process-grid, .about-points { grid-template-columns: 1fr; }
+      .hero-stats { grid-template-columns: repeat(2, 1fr); }
+      .copyright { justify-content: center; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header id="header">
+    <div class="container nav">
+      <a href="#home" class="logo">
+        <img class="logo-img" src="ismail%20logo.png" alt="Digital with Ismail — M Ismail Ibrahim" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#results">Results</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-whatsapp nav-cta" data-wa-link style="color:#052e16">WhatsApp</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div>
+        <div class="badge"><span class="dot"></span> Available for Projects</div>
+        <h1>Hi, I'm <span class="grad">M Ismail Ibrahim</span> — SEO Expert & Web Designer</h1>
+        <p class="lead">I help businesses rank higher on Google and grow organic traffic with white-hat <strong>Off-Page SEO, On-Page SEO, Local SEO</strong>, modern <strong>Website Designing</strong> and <strong>Vibe Coding</strong> — with 100+ live projects running worldwide.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn btn-whatsapp" data-wa-link>
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Now
+          </a>
+          <a href="#projects" class="btn btn-ghost">View My Work →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><h3 class="counter" data-target="100" data-suffix="+">0</h3><p>Live Projects</p></div>
+          <div class="stat"><h3 class="counter" data-target="100" data-suffix="%">0</h3><p>White-Hat SEO</p></div>
+          <div class="stat"><h3 class="counter" data-target="5" data-suffix="+">0</h3><p>Expert Services</p></div>
+          <div class="stat"><h3 class="counter" data-target="24" data-suffix="/7">0</h3><p>Support</p></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <img src="profile.jpg" alt="M Ismail Ibrahim — SEO Expert" data-fb="#heroFallback" />
+            <div class="avatar-initials" id="heroFallback" hidden>MI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TOOLS MARQUEE ==================== -->
+  <div class="tools">
+    <div class="marquee">
+      <div class="marquee-track" id="toolsTrack"></div>
+    </div>
+  </div>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section id="services">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">My Services</span>
+        <h2 class="section-title">What I <span class="grad">Offer</span></h2>
+        <p class="section-sub">Complete SEO and web solutions — from technical optimization to modern AI-powered development, everything your business needs to grow online.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" data-delay="1">
+          <div class="service-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3a8 8 0 008 8 8 8 0 01-8 8 8 8 0 00-8-8 8 8 0 018-8z"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3>On-Page SEO</h3>
+          <p>Complete on-page optimization to make your pages fully search-engine friendly and conversion-ready.</p>
+          <div class="tags"><span>Meta Tags</span><span>Content Optimization</span><span>Internal Linking</span><span>Schema</span></div>
+        </div>
+        <div class="service-card reveal" data-delay="2">
+          <div class="service-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+          </div>
+          <h3>Off-Page SEO</h3>
+          <p>High-quality white-hat link building and authority building that safely boosts your domain trust.</p>
+          <div class="tags"><span>Link Building</span><span>Guest Posting</span><span>Citations</span><span>Brand Mentions</span></div>
+        </div>
+        <div class="service-card reveal" data-delay="3">
+          <div class="service-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Local SEO</h3>
+          <p>Dominate your local market and Google Maps with optimized business presence that attracts nearby customers.</p>
+          <div class="tags"><span>Google Business Profile</span><span>Local Citations</span><span>NAP Consistency</span><span>Reviews</span></div>
+        </div>
+        <div class="service-card reveal" data-delay="1">
+          <div class="service-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+          </div>
+          <h3>Website Designing</h3>
+          <p>Fast, responsive and SEO-friendly websites designed to convert visitors into paying customers.</p>
+          <div class="tags"><span>Responsive Design</span><span>Fast Loading</span><span>SEO-Ready</span><span>User Friendly</span></div>
+        </div>
+        <div class="service-card reveal" data-delay="2">
+          <div class="service-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Vibe Coding</h3>
+          <p>Modern AI-powered development — tools sites, web apps and utilities built with the latest vibe coding approach.</p>
+          <div class="tags"><span>Tools Sites</span><span>Web Apps</span><span>AI-Powered</span><span>Fast Delivery</span></div>
+        </div>
+        <div class="service-card reveal" data-delay="3" style="background:linear-gradient(135deg, rgba(34,211,165,0.09), rgba(56,189,248,0.07));">
+          <div class="service-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+          </div>
+          <h3>Free SEO Consultation</h3>
+          <p>Not sure where to start? Message me on WhatsApp for a free quick audit of your website — no obligation.</p>
+          <a href="#" class="btn btn-whatsapp" data-wa-link style="margin-top:18px; padding:11px 24px; font-size:0.85rem;">Get Free Audit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section id="projects" style="background:var(--bg-2); border-block:1px solid var(--border);">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">My Projects</span>
+        <h2 class="section-title">100+ <span class="grad">Live Projects</span></h2>
+        <p class="section-sub">A portfolio of real, running websites — SEO tools sites, APK sites and service websites that I built, ranked and manage myself. Real sites, real rankings, real revenue.</p>
+      </div>
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="tool">🛠️ Tools Sites</button>
+        <button class="filter-btn" data-filter="apk">📱 APK Sites</button>
+        <button class="filter-btn" data-filter="service">💼 Service Sites</button>
+        <button class="filter-btn" data-filter="info">ℹ️ Info Sites</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+      <p class="projects-note">Featured projects shown — <strong>100+ total websites</strong> live and ranking. Full list & GSC proof available on request.</p>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-visual reveal">
+        <div class="about-photo">
+          <img src="profile.jpg" alt="M Ismail Ibrahim — SEO Expert" data-fb="#aboutFallback" style="object-position: center top;" />
+          <div class="ph" id="aboutFallback" hidden>
+            <div class="big">MI</div>
+            <p>Your Photo Here<br/>(profile.jpg)</p>
+          </div>
+        </div>
+        <div class="exp-badge"><b>100+</b><span>Live Projects</span></div>
+      </div>
+      <div class="reveal" data-delay="1">
+        <span class="eyebrow">About Me</span>
+        <h2 class="section-title">SEO Expert Who <span class="grad">Practices What He Preaches</span></h2>
+        <p style="color:var(--muted);">I'm M Ismail Ibrahim, an SEO expert and web designer. Unlike most freelancers, I don't just talk about SEO — I run my own network of <strong style="color:var(--text);">100+ live websites</strong> including tools sites, APK sites and service websites like my SEO agency RankUp.pk. Everything I offer, I test on my own properties first.</p>
+        <ul class="about-points">
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span> 100+ self-owned projects running & earning</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span> 100% white-hat, safe SEO methods</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span> Real experience with real rankings</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span> Direct communication — no middleman</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span> Modern vibe coding & web development</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span> Fast replies on WhatsApp</li>
+        </ul>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="#" class="btn btn-whatsapp" data-wa-link>Let's Talk on WhatsApp</a>
+          <a href="#projects" class="btn btn-ghost">See My Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== RESULTS / GSC PROOF ==================== -->
+  <section class="results" id="results">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow" style="justify-content:center;">Real Results — GSC Proof</span>
+        <h2 class="section-title">Organic Growth <span class="grad">You Can Verify</span></h2>
+        <p class="section-sub" style="margin-inline:auto;">This is live Google Search Console data from my money sites — real clicks, real impressions, real rankings. No fake screenshots.</p>
+      </div>
+      <div class="results-stats">
+        <div class="result-card reveal" data-delay="1"><div class="num">110K+</div><p>Clicks — 3 Months</p></div>
+        <div class="result-card reveal" data-delay="2"><div class="num">1.02M+</div><p>Impressions — 3 Months</p></div>
+        <div class="result-card reveal" data-delay="3"><div class="num">10.7%</div><p>Average CTR</p></div>
+        <div class="result-card reveal" data-delay="3"><div class="num">4.4</div><p>Average Position</p></div>
+      </div>
+      <a href="gsc-proof.jpg" class="gsc-frame reveal" data-lightbox="gsc-proof.jpg" data-delay="1">
+        <div class="gsc-topbar">
+          <i></i><i></i><i></i>
+          <span>Google Search Console — Performance Report (Click to Enlarge)</span>
+        </div>
+        <img src="gsc-proof.jpg" alt="Google Search Console proof — 110K+ clicks and 1M+ impressions in 3 months from money site" loading="lazy" />
+      </a>
+      <p class="gsc-caption reveal" data-delay="2"><strong>Money Site — Google Search Console Performance:</strong> 110K+ clicks &amp; 1M+ impressions in the last 3 months, ranking at average position 4.4.</p>
+    </div>
+  </section>
+
+  <!-- ==================== PROCESS ==================== -->
+  <section id="process">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow" style="justify-content:center;">How I Work</span>
+        <h2 class="section-title">Simple <span class="grad">4-Step</span> Process</h2>
+        <p class="section-sub" style="margin-inline:auto;">Clear, transparent workflow — you always know what's happening with your project.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-card reveal" data-delay="1">
+          <div class="step-num">01</div>
+          <h3>Audit & Research</h3>
+          <p>Complete analysis of your website, competitors and keywords to find the best opportunities.</p>
+        </div>
+        <div class="process-card reveal" data-delay="2">
+          <div class="step-num">02</div>
+          <h3>Custom Strategy</h3>
+          <p>A tailored SEO plan built specifically for your niche, goals and budget.</p>
+        </div>
+        <div class="process-card reveal" data-delay="3">
+          <div class="step-num">03</div>
+          <h3>Implementation</h3>
+          <p>Hands-on execution — optimization, content, links and technical fixes, all done manually.</p>
+        </div>
+        <div class="process-card reveal" data-delay="3">
+          <div class="step-num">04</div>
+          <h3>Reporting</h3>
+          <p>Regular updates and clear reports so you can see real progress on rankings and traffic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ==================== -->
+  <section id="faq" style="background:var(--bg-2); border-block:1px solid var(--border);">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow" style="justify-content:center;">FAQ</span>
+        <h2 class="section-title">Frequently Asked <span class="grad">Questions</span></h2>
+      </div>
+      <div class="faq-wrap reveal" data-delay="1">
+        <div class="faq-item">
+          <button class="faq-q">What services do you offer?<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>I offer Off-Page SEO, On-Page SEO, Local SEO, Website Designing and Vibe Coding. From full SEO campaigns to building complete websites — everything is handled by me directly.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What kind of projects do you own?<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>I own and manage 100+ live websites including SEO tools sites, APK download sites and informational websites. All are live, ranking and earning — real proof of my skills.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How much do your services cost?<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Pricing depends on your project scope and goals. Message me on WhatsApp with your requirements and I'll send you a fair, custom quote — consultation is completely free.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How long does SEO take to show results?<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>SEO is a long-term game. Usually visible improvements start within 4-12 weeks depending on competition, while serious ranking growth takes 3-6 months of consistent work.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you work with international clients?<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Yes! I work with clients worldwide — USA, UK, Canada, Australia, Gulf and beyond. All communication happens on WhatsApp or email, in full English.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do we get started?<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Simple — click any WhatsApp button on this page, share your website and goals, and I'll reply with a free quick audit and next steps. Usually within a few hours.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="cta-box reveal">
+        <span class="eyebrow" style="justify-content:center;">Let's Work Together</span>
+        <h2>Ready to Grow Your <span class="grad">Organic Traffic?</span></h2>
+        <p>Send me a message on WhatsApp — get a free quick audit of your website and a custom plan for your business.</p>
+        <a href="#" class="btn btn-whatsapp" data-wa-link style="font-size:1.05rem; padding:16px 40px;">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat on WhatsApp
+        </a>
+        <div class="cta-trust">✓ Free Consultation &nbsp;·&nbsp; ✓ Reply Within Hours &nbsp;·&nbsp; ✓ No Obligation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="#home" class="logo">
+            <img class="logo-img" src="ismail%20logo.png" alt="Digital with Ismail — M Ismail Ibrahim" />
+          </a>
+          <p>SEO Expert & Web Designer with 100+ live projects. Helping businesses rank higher on Google with white-hat SEO and modern web design.</p>
+          <!-- SOCIAL LINKS: CONFIG section mein update karein -->
+          <div class="socials">
+            <a href="#" id="socialFb" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+            <a href="#" id="socialLinkedin" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+            <a href="#" id="socialInsta" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">On-Page SEO</a></li>
+            <li><a href="#services">Off-Page SEO</a></li>
+            <li><a href="#services">Local SEO</a></li>
+            <li><a href="#services">Website Designing</a></li>
+            <li><a href="#services">Vibe Coding</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            <a href="#" data-wa-link>WhatsApp: <span data-wa-display>+92 3XX XXXXXXX</span></a>
+          </div>
+          <div class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            <a href="#" id="emailLink">your-email@gmail.com</a>
+          </div>
+          <div class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span id="locationText">Pakistan</span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>© <span id="year"></span> M Ismail Ibrahim. All rights reserved.</span>
+        <span>SEO Expert · Web Designer · Vibe Coder</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== LIGHTBOX (GSC zoom) ==================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Screenshot zoom">
+    <img src="gsc-proof.jpg" alt="Google Search Console proof — enlarged view" id="lightboxImg" />
+  </div>
+
+  <!-- ==================== FLOATING WHATSAPP ==================== -->
+  <a href="#" class="wa-float" data-wa-link aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    /* ================================================================
+       ★★★ CONFIG — SIRF YEH SECTION UPDATE KAREIN ★★★
+       Yahan apni details daal dein — poori site automatic update ho jayegi
+    ================================================================ */
+    const CONFIG = {
+      // WhatsApp number (country code ke sath, bina + ke) — e.g. "923001234567"
+      whatsapp: "923338498005",
+      whatsappDisplay: "+92 333 8498005",   // Footer mein number aise dikhega
+
+      // Email
+      email: "ismaelibraheem05@gmail.com",
+
+      // Location (Local SEO ke liye)
+      location: "Pakistan",
+
+      // Social links ("#" chhorein agar koi social account nahi hai)
+      socials: {
+        facebook: "#",
+        linkedin: "#",
+        instagram: "#"
+      },
+
+      // Default WhatsApp message (client ko likha hua message)
+      waMessage: "Hi Ismail! Main aap ki SEO services ke bare mein baat karna chahta hoon.",
+
+      /* ============================================================
+         PROJECTS — APNI SITES KE LINKS YAHAN DAALEIN
+         type: "tool" = Tools Site | "apk" = APK Site | "info" = Info Site | "service" = Service Site
+         Har project ke liye: name, desc, type aur link change karein
+      ============================================================ */
+      projects: [
+        // ----- TOOLS SITES -----
+        { name: "GetFontGenerator", desc: "Free online font generator — 200+ fancy Unicode text styles for social media bios, captions & game names. Live & ranking.", type: "tool", link: "https://getfontgenerator.com/" },
+        { name: "FreePixely", desc: "Browser-based image tools site — convert, compress & edit images with 100% on-device processing. No watermark, no signup.", type: "tool", link: "https://freepixely.com/" },
+
+        // ----- APK SITES -----
+        { name: "APKXio", desc: "APK download website — free APKs & MOD apps for Android games and apps. Virus-scanned files, updated daily.", type: "apk", link: "https://apkxio.com/" },
+
+        // ----- SERVICE / MONEY SITES -----
+        { name: "RankUp.pk", desc: "My flagship SEO agency website — technical SEO, link building, content & free SEO tools for the Pakistani market.", type: "service", link: "https://www.rankup.pk/" },
+        { name: "FixHomeAppliances.ae", desc: "Dubai home appliance repair service — same-day washing machine, fridge & oven repair. Ranking & generating leads in UAE.", type: "service", link: "https://fixhomeappliances.ae/" },
+        { name: "TakeMyJunk-ae.com", desc: "Dubai junk removal service website — residential & commercial pickup with same-day service. Ranking in UAE search results.", type: "service", link: "https://takemyjunk-ae.com/" },
+
+        // AUR PROJECTS YAHAN ADD KAREIN — same format mein
+      ]
+    };
+
+    /* ==================== HELPERS ==================== */
+    const $ = (s, p = document) => p.querySelector(s);
+    const $$ = (s, p = document) => [...p.querySelectorAll(s)];
+
+    /* ==================== WHATSAPP LINKS ==================== */
+    function setupWhatsApp() {
+      const waHref = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(CONFIG.waMessage)}`;
+      $$("[data-wa-link]").forEach(el => el.href = waHref);
+      const disp = $("[data-wa-display]");
+      if (disp) disp.textContent = CONFIG.whatsappDisplay;
+    }
+
+    /* ==================== EMAIL + SOCIALS ==================== */
+    function setupContact() {
+      const emailLink = $("#emailLink");
+      if (emailLink) {
+        emailLink.href = `mailto:${CONFIG.email}`;
+        emailLink.textContent = CONFIG.email;
+      }
+      const loc = $("#locationText");
+      if (loc) loc.textContent = CONFIG.location;
+
+      const socialMap = { socialFb: "facebook", socialLinkedin: "linkedin", socialInsta: "instagram" };
+      Object.entries(socialMap).forEach(([id, key]) => {
+        const el = document.getElementById(id);
+        if (el) el.href = CONFIG.socials[key] || "#";
+      });
+    }
+
+    /* ==================== PROJECTS GRID ==================== */
+    const typeLabels = { tool: ["Tools Site", "type-tool"], apk: ["APK Site", "type-apk"], info: ["Info Site", "type-info"], service: ["Service Site", "type-service"] };
+
+    function renderProjects(filter = "all") {
+      const grid = $("#projectsGrid");
+      const list = filter === "all" ? CONFIG.projects : CONFIG.projects.filter(p => p.type === filter);
+      grid.innerHTML = list.map((p, i) => `
+        <a href="${p.link}" target="_blank" rel="noopener" class="project-card reveal" data-delay="${(i % 3) + 1}" style="transition-delay:${(i % 3) * 0.08}s">
+          <div class="project-top">
+            <span class="project-type ${typeLabels[p.type][1]}">${typeLabels[p.type][0]}</span>
+            <span class="live-dot"><i></i> Live</span>
+          </div>
+          <h3>${p.name}</h3>
+          <p>${p.desc}</p>
+          <span class="project-link">Visit Website <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg></span>
+        </a>
+      `).join("");
+      observeReveals();
+    }
+
+    $$(".filter-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        $$(".filter-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        renderProjects(btn.dataset.filter);
+      });
+    });
+
+    /* ==================== TOOLS MARQUEE ==================== */
+    const tools = [
+      "Google Search Console", "Google Analytics", "Ahrefs", "SEMrush",
+      "Screaming Frog", "Yoast SEO", "Rank Math", "Surfer SEO",
+      "GTmetrix", "Google Business Profile"
+    ];
+    function renderTools() {
+      const star = `<svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8L8 14 2 9.2h7.6z"/></svg>`;
+      const pills = tools.map(t => `<div class="tool-pill">${star}${t}</div>`).join("");
+      $("#toolsTrack").innerHTML = pills + pills; // duplicate for seamless loop
+    }
+
+    /* ==================== FAQ ACCORDION ==================== */
+    $$(".faq-item").forEach(item => {
+      const q = $(".faq-q", item);
+      const a = $(".faq-a", item);
+      q.addEventListener("click", () => {
+        const isOpen = item.classList.contains("open");
+        $$(".faq-item").forEach(i => {
+          i.classList.remove("open");
+          $(".faq-a", i).style.maxHeight = null;
+        });
+        if (!isOpen) {
+          item.classList.add("open");
+          a.style.maxHeight = a.scrollHeight + "px";
+        }
+      });
+    });
+
+    /* ==================== COUNTERS ==================== */
+    function animateCounter(el) {
+      const target = +el.dataset.target;
+      const suffix = el.dataset.suffix || "";
+      let current = 0;
+      const step = Math.max(1, Math.ceil(target / 50));
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        el.textContent = current + suffix;
+      }, 28);
+    }
+
+    /* ==================== SCROLL REVEAL ==================== */
+    let revealObserver;
+    function observeReveals() {
+      if (!revealObserver) {
+        revealObserver = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visible");
+              revealObserver.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.12 });
+      }
+      $$(".reveal:not(.visible)").forEach(el => revealObserver.observe(el));
+    }
+
+    const counterObserver = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          animateCounter(e.target);
+          counterObserver.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.6 });
+    $$(".counter").forEach(c => counterObserver.observe(c));
+
+    /* ==================== NAVBAR ==================== */
+    const header = $("#header");
+    window.addEventListener("scroll", () => {
+      header.classList.toggle("scrolled", window.scrollY > 40);
+    }, { passive: true });
+
+    const hamburger = $("#hamburger");
+    const navLinks = $("#navLinks");
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("open");
+      navLinks.classList.toggle("open");
+    });
+    $$(" .nav-links a").forEach(a => a.addEventListener("click", () => {
+      hamburger.classList.remove("open");
+      navLinks.classList.remove("open");
+    }));
+
+    /* ==================== ACTIVE NAV LINK ==================== */
+    const sections = $$("section[id]");
+    window.addEventListener("scroll", () => {
+      let current = "home";
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 200) current = s.id;
+      });
+      $$(".nav-links a:not(.btn)").forEach(a => {
+        a.classList.toggle("active", a.getAttribute("href") === `#${current}`);
+      });
+    }, { passive: true });
+
+    /* ==================== LIGHTBOX ==================== */
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightboxImg");
+    $$("[data-lightbox]").forEach(el => {
+      el.addEventListener("click", e => {
+        e.preventDefault();
+        lightboxImg.src = el.dataset.lightbox;
+        lightbox.classList.add("open");
+      });
+    });
+    lightbox.addEventListener("click", () => lightbox.classList.remove("open"));
+    document.addEventListener("keydown", e => { if (e.key === "Escape") lightbox.classList.remove("open"); });
+
+    /* ==================== PHOTO FALLBACK ==================== */
+    // Agar profile.jpg na mile to MI initials wapas dikhao (broken image nahi)
+    $$("img[data-fb]").forEach(img => {
+      const fb = document.querySelector(img.dataset.fb);
+      const fail = () => { img.remove(); if (fb) fb.hidden = false; };
+      if (img.complete && img.naturalWidth === 0) fail();
+      else img.addEventListener("error", fail);
+    });
+
+    // Agar logo.png na mile to MI monogram wapas dikhao
+    $$(".logo-img").forEach(img => {
+      const fail = () => {
+        const mark = document.createElement("div");
+        mark.className = "logo-mark";
+        mark.textContent = "MI";
+        img.replaceWith(mark);
+      };
+      if (img.complete && img.naturalWidth === 0) fail();
+      else img.addEventListener("error", fail);
+    });
+
+    /* ==================== INIT ==================== */
+    document.getElementById("year").textContent = new Date().getFullYear();
+    setupWhatsApp();
+    setupContact();
+    renderTools();
+    renderProjects();
+    observeReveals();
+  </script>
+</body>
+</html>
