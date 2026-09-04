@@ -749,17 +749,7 @@
         animation: none;
         box-shadow: 0 0 80px rgba(56, 189, 248, 0.30), 0 0 160px rgba(56, 189, 248, 0.14);
       }
-      .services-grid, .projects-grid { grid-template-columns: repeat(2, 1fr); }
-      .process-grid { grid-template-columns: repeat(2, 1fr); }
-      .about-inner { grid-template-columns: 1fr; gap: 50px; }
-      .about-visual { max-width: 360px; margin: 0 auto; }
-      .footer-grid { grid-template-columns: 1fr 1fr; }
-    }
-
-    @media (max-width: 768px) {
-      section { padding: 66px 0; }
-      .logo-img { height: 46px; }
-      /* Mobile: hamburger (4 lines) — click par header ke neeche menu list khulti hai */
+      /* Hamburger (4 lines) — tablet + mobile par desktop menu ki jagah (overflow fix) */
       header { padding: 12px 0; }
       .nav { flex-wrap: nowrap; }
       .nav-links {
@@ -791,6 +781,16 @@
       .nav-links a::after { display: none; }
       .hamburger { display: flex; }
       .nav .btn { display: none; }
+      .services-grid, .projects-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-grid { grid-template-columns: repeat(2, 1fr); }
+      .about-inner { grid-template-columns: 1fr; gap: 50px; }
+      .about-visual { max-width: 360px; margin: 0 auto; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      section { padding: 66px 0; }
+      .logo-img { height: 46px; }
       .footer-grid { grid-template-columns: 1fr; gap: 36px; }
       .hero { padding: 118px 0 64px; min-height: auto; }
       .services-grid, .projects-grid, .process-grid, .about-points { grid-template-columns: 1fr; }
